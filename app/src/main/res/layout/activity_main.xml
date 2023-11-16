@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="378dp"
+        android:layout_height="456dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/beige"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.803">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text1"
+                style="@style/style_textView"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/text2"
+                style="@style/style_textView"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/text3"
+                style="@style/style_textView"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/text4"
+                style="@style/style_textView"
+                android:text="0" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text5"
+                style="@style/style_textView"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/text6"
+                style="@style/style_textView"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/text7"
+                style="@style/style_textView"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/text8"
+                style="@style/style_textView"
+                android:text="0" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text9"
+                style="@style/style_textView"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/text10"
+                style="@style/style_textView"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/text11"
+                style="@style/style_textView"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/text12"
+                style="@style/style_textView"
+                android:text="0" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text13"
+                style="@style/style_textView"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/text14"
+                style="@style/style_textView"
+
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/text15"
+                style="@style/style_textView"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/text16"
+                style="@style/style_textView"
+
+                android:text="0" />
+        </TableRow>
+
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="133dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="16dp"
+
+        android:backgroundTint="@color/beige"
+        android:color="#FFA726"
+
+        android:text="New Game"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/style_textView"
+        android:layout_width="86dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="100dp"
+        android:background="@color/beige"
+        android:text="Score"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.64" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/style_textView"
+        android:layout_width="86dp"
+
+        android:layout_height="43dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginBottom="100dp"
+        android:background="@color/beige"
+        android:text="Best"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.332"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.638" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="212dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:gravity="center"
+        android:text="2048"
+        android:textColor="@color/brown"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
